@@ -7,22 +7,22 @@ class Dg < Formula
   on_macos do
     on_arm do
       url "https://github.com/decisiongraph/dg/releases/download/v0.1.1/dg-aarch64-apple-darwin.tar.gz"
-      sha256 "3741b28913917bb57a93e69b0c57876e54533cd6c0331c56f36db2560c3dc615"
+      sha256 "10ffba7e41486cce1a8452eeadf02b8a1b9d7ef90dfb64277826a7dfb1e8011b"
     end
     on_intel do
       url "https://github.com/decisiongraph/dg/releases/download/v0.1.1/dg-x86_64-apple-darwin.tar.gz"
-      sha256 "d240512601fc88325426fc35327d0c408e5554cdd0f354414164a5b5fd237120"
+      sha256 "2c98c2ade9c28a9852cdbd768af549dd11dba2b82804e589f99c2759ac23ebdd"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/decisiongraph/dg/releases/download/v0.1.1/dg-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f75ab733b794f3244e30cf4240df7ab61017d086780305815db4e0b4c9e4b64a"
+      sha256 "4ae0f4d67250865c83dd0664b24cbdddbd88f66a59d5e643aac30e4c5186cf86"
     end
     on_intel do
       url "https://github.com/decisiongraph/dg/releases/download/v0.1.1/dg-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "237dd3dcd6b19c51469ab08d36aa029b29c4d100ddf61128bf258379a484d98c"
+      sha256 "e557e256ef54bdaaa9d5ea138b19059d525b083a1991194857dddc10039529f6"
     end
   end
 
