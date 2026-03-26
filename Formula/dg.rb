@@ -1,28 +1,28 @@
 class Dg < Formula
   desc "Decision Graph - Text-based knowledge graph for company decisions"
   homepage "https://github.com/decisiongraph/dg"
-  version "0.1.0"
+  version "0.1.3"
   license "AGPL-3.0"
 
   on_macos do
     on_arm do
       url "https://github.com/decisiongraph/dg/releases/download/v0.1.0/dg-aarch64-apple-darwin.tar.gz"
-      sha256 "fc0179d3013d6f64ba612f038e12637614d8c89d82ced83cff4e148b57df0115"
+      sha256 "392d78c274f44df201f8abd2a9b8e09abbaf71ce85c538b18dbf3dcbb8b6c32c"
     end
     on_intel do
       url "https://github.com/decisiongraph/dg/releases/download/v0.1.0/dg-x86_64-apple-darwin.tar.gz"
-      sha256 "ff0713769c6a122e7d0075974cf40ad5cda4c0dc51b0e9247648767d618e668e"
+      sha256 "f989b6dab8c373451d8b1aae46afc2090f9a73f90854578617e1fe8882ed5c7b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/decisiongraph/dg/releases/download/v0.1.0/dg-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "de1c4ee6ba17517b40dffca4cad9007ecba8961253a8c1a631ae07c9830325ee"
+      sha256 "8760263b1c1d6905819241b1ae197a792f096a2b7981b9588f97130d1d56e283"
     end
     on_intel do
       url "https://github.com/decisiongraph/dg/releases/download/v0.1.0/dg-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "fa9d25bf6e6309fcac9cb1906fb7e921ca936fea7378fe61603add0563e30704"
+      sha256 "e578ae6db75f1d3ae31cc0a610e13277dc1044519245defccf57fdd307c387bb"
     end
   end
 
