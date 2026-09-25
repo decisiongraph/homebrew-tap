@@ -1,34 +1,33 @@
 class Dg < Formula
   desc "Decision Graph - Text-based knowledge graph for company decisions"
   homepage "https://github.com/decisiongraph/dg"
-  version "0.1.17"
+  version "0.1.18"
   license "AGPL-3.0"
 
   on_macos do
     on_arm do
       url "https://github.com/decisiongraph/dg/releases/download/v#{version}/dg-aarch64-apple-darwin.tar.gz"
-      sha256 "0084c3a20968bbfc37cd6bbd64909cfc3267c9dfb6dab45033bcc747c7c37abd"
+      sha256 "02de7cc7855788bafdb44d2210ccf14349e9fcb7b0fcc2a45b2ce66fc85f0786"
     end
     on_intel do
       url "https://github.com/decisiongraph/dg/releases/download/v#{version}/dg-x86_64-apple-darwin.tar.gz"
-      sha256 "7cf93714c247a79e2d3161d59c52029d6e9955fd318ea6cadcaf1d8683773bba"
+      sha256 "da3fccc1b96b1a9fb458d4488fd4ee6f1c3b9fa1a8d8906f69564abfd26ee7c4"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/decisiongraph/dg/releases/download/v#{version}/dg-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0e5372af1c44a4d20a9fa15a3ce596375f7c6f78ba4257e545d5f89d9f81d2ed"
+      sha256 "bd9e8f3b132bc6dcb72f391050a570c16b38e5a8f7c55597c5ac4b0a06e04922"
     end
     on_intel do
       url "https://github.com/decisiongraph/dg/releases/download/v#{version}/dg-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "b7404482161e1e88b37c0b5e64d5a3a1ee9e6ea226ca126cfb482fdb8e920d47"
+      sha256 "0c3a7b5892a522360ae5ed111100465aed8f05c8c1a05ea61700488a16fcd074"
     end
   end
 
   def install
     bin.install "dg"
-    bin.install "dg-mcp"
   end
 
   test do
